@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Erika Browser.exe" version="1.0.0.0" publicKeyToken="231c53f94a64b989" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Erika Browser" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Erika Browser.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Erika Browser.exe" size="20992">
+      <assemblyIdentity name="Erika Browser" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gacu0WWe5LsgHyJL7vVff6a93AE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-7AVE0II\PC" issuerKeyHash="7d768d926e63815722f5a88ff07116bf72b01e62" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dCQDq/5PPw4tx1yanxWCaoN3XEg=</DigestValue></Reference></SignedInfo><SignatureValue>YqOS2VmDr7nYkGYoMjgzCHrcqfb5ly1R/f296dpH32qwyR5YYDQQkSAhVAIdLbGbYO29s0zwsAJjXFKpnv6tUK30jq6kgGECxIJ45SVqnHutc+zSpP6s0+5nEXBGG7p3iyZisUTZBm9TU1O4n/uXyQETo858jd0jzi6limlV9M8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x4N3oVRf2th0OY8iYQYNShwvnYhR/bwemLI2dJRea9HLlIfgystU10sEfbzODVVoa5I/o4jvBqo+TLMt5WxfWgNq4orFz1tCqH55Cm1ZTLH8s88web7BTb4LrgFbb6ZYGg7KN+IL9dSnsxvUYaIckjAbyb/5qGibBgGINQFBtBM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="485c77836a82159f9a5cc72d0e3f4ffeab032474" Description="" Url=""><as:assemblyIdentity name="Erika Browser.exe" version="1.0.0.0" publicKeyToken="231c53f94a64b989" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-7AVE0II\PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HXGyaAEO6/StQWQvzGDuU5nIlaA=</DigestValue></Reference></SignedInfo><SignatureValue>MZXbsxHZjkodfLRYOGtUu62/xFs92y3fG2mdijZEni1pd1CvChdLbG5K0DOd6vgfl1YLaEK9FHUDnkV/6DTjcmRs5siyZNrhdTbBoQ+gxfZlRh10N3UaKxk058sqIeqdsJ4BXsPBq5yQfP8xWUH2ZQ2amRCOAtRmyRje4L7KDMs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x4N3oVRf2th0OY8iYQYNShwvnYhR/bwemLI2dJRea9HLlIfgystU10sEfbzODVVoa5I/o4jvBqo+TLMt5WxfWgNq4orFz1tCqH55Cm1ZTLH8s88web7BTb4LrgFbb6ZYGg7KN+IL9dSnsxvUYaIckjAbyb/5qGibBgGINQFBtBM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQHJMwM6+wEoRLg8UugAUb1DANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADcAQQBWAEUAMABJAEkAXABQAEMwHhcNMTcwNDA5MTEwMzM4WhcNMTgwNDA5MTcwMzM4WjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADcAQQBWAEUAMABJAEkAXABQAEMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMeDd6FUX9rYdDmPImEGDUocL52IUf28HpiyNnSUXmvRy5SH4MrLVNdLBH28zg1VaGuSP6OI7waqPkyzLeVsX1oDauKKxc9bQqh+eQptWUyx/LPPMHm+wU2+C64BW2+mWBoOyjfiC/XUp7Mb1GGiHJIwG8m/+ahomwYBiDUBQbQTAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEALX1hc24tg9B3Hglbst83x3ugdjtMTelMXJg45hGpVBknQNFGF4O2lXhw9Hglk0t+nT0U/yKAEjHPHMLY4I6kjxZ7iTNCW1TRMvNG2P4qIDbNArywCaHc3MP/+8YBaF1OyUCmn8Yr++OgXv4BZHcHCVwReiCr/hU2wIPaUJpxLU0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

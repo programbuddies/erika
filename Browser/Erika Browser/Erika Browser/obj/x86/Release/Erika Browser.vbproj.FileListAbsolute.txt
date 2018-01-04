@@ -1,0 +1,13 @@
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika_Browser.Form1.resources
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika_Browser.Resources.resources
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika Browser.vbproj.GenerateResource.Cache
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\bin\Release\Erika Browser.exe.manifest
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\bin\Release\Erika Browser.application
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\bin\Release\Erika Browser.exe
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\bin\Release\Erika Browser.pdb
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\bin\Release\Erika Browser.xml
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika Browser.exe.manifest
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika Browser.application
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika Browser.exe
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika Browser.xml
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Release\Erika Browser.pdb

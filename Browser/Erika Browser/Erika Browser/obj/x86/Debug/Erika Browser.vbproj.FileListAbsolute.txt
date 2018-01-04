@@ -1,0 +1,3 @@
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Debug\Erika_Browser.Form1.resources
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Debug\Erika_Browser.Resources.resources
+C:\Users\PC\AppData\Local\Temporary Projects\Erika Browser\obj\x86\Debug\Erika Browser.vbproj.GenerateResource.Cache
